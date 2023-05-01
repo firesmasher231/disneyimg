@@ -9,7 +9,7 @@
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 	</head>
 	<body class="bg-indigo-950">
-		<div>
+		<div class="flex flex-col">
 			<h1
 				class="font-sans font-mono text-center font-bold text-white select-none text-3xl m-auto bold my-10"
 			>
@@ -17,9 +17,9 @@
 			</h1>
 
 			<div
-				class="sm:mx-[10px] md:mx-[40px] lg:mx-[100px] xl:mx-[350px] mb-4 border border-gray-200 rounded-lg bg-gray-50 dark:bg-gray-700 dark:border-gray-600"
+				class="flex flex-col md:mx-[40px] lg:mx-[100px] xl:mx-[350px] mb-4 border border-gray-200 rounded-lg bg-gray-50 dark:bg-gray-700 dark:border-gray-600"
 			>
-				<div class="px-4 py-2 bg-white rounded-t-lg dark:bg-gray-800">
+				<div class="flex px-4 py-2 bg-white rounded-t-lg dark:bg-gray-800">
 					<textarea
 						id="urls"
 						rows="4"
@@ -40,7 +40,7 @@
 				</div>
 			</div>
 			<div
-				class="rounded-md dark:border-gray-600 border-gray-200 sm:mx-[10px] md:mx-[40px] lg:mx-[100px] xl:mx-[350px] text-gray-900 bg-white border-0 dark:bg-gray-600 focus:ring-0 dark:text-white dark:placeholder-gray-400"
+				class="rounded-md dark:border-gray-600 border-gray-200 md:mx-[40px] lg:mx-[100px] xl:mx-[350px] text-gray-900 bg-white border-0 dark:bg-gray-600 focus:ring-0 dark:text-white dark:placeholder-gray-400"
 			>
 				<div class="text-gray-300 p-2">
 					<p>How do i get the image URLs? <br /></p>
@@ -79,6 +79,12 @@
 				</div>
 				<button onclick="downloadImages()">Download Images</button>
 			</div> -->
+		</div>
+		<div class="text-xl text-white text-right bottom-0 fixed right-0 m-8">
+			<p>🛠 Made by AJ</p>
+			<a href="https://www.buymeacoffee.com/AdityaJ">
+				<p>Buy me a coffee! ☕</p>
+			</a>
 		</div>
 		<script src="index.js"></script>
 	</body>
